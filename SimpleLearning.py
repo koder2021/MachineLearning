@@ -14,7 +14,7 @@ for i in range(train_set_count):
     a = randint(0, train_set_limit)
     b = randint(0, train_set_limit)
     c = randint(0, train_set_limit)
-    op = a + (2*b) + (3*c)
+    op = (5*a) + (7*b) + (12*c)
     train_input.append([a, b, c])
     train_output.append(op)
     
