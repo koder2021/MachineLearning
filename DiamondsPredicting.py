@@ -28,7 +28,7 @@ X = df[['carat', 'cut', 'color', 'clarity', 'depth', 'table', 'x', 'y', 'z']]
 y = df[['price']]
 
 #Разделение данных на тренировочный и тестовый наборы
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 25, random_state = 101)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 25, random_state = 67)
 
 #Тренировка
 regr = RandomForestRegressor(n_estimators = 10, max_depth = 10, random_state = 67)
